@@ -1,19 +1,11 @@
-import React from "react"
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./components/Navbar"
 
-function App() {
-  return (
-    <>
-    <navbar>
-      <ul>
-        <il>home</il>
-        <il>products</il>
-        <il>questions</il>
-      </ul>
-    </navbar>
-    </>
-  );
+const App = () => {
+    return (
+        <header>
+            <Navbar/>
+        </header>
+    )
 }
 
-export default App;
+export default App
